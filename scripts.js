@@ -18,3 +18,4 @@ function getJoke() {
     });
     xhr.send();
 }
+
