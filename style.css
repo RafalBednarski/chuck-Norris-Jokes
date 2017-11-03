@@ -1,0 +1,36 @@
+body {
+	background-image: url("img/chuck.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    font-family: 'Gloria Hallelujah', cursive;display: flex;;
+}
+
+.content {
+	height: 100vh;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+button {
+	width: 200px;
+    height: 50px;
+    transition: 0.15s;
+    border-radius: 30px;
+    font-size: 28px;
+    box-shadow: 1px 2px 2px #b6b6b6;
+    font-family: 'Gloria Hallelujah', cursive;
+    outline: none;
+}
+
+.content p {
+	font-size: 30px;
+    background: #FFF;
+    color: black;
+    border-radius: 30px;
+    padding: 10px;
+}
